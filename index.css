@@ -124,7 +124,7 @@ nav.nav-scrolled .navbar-brand:hover {
 	background-color: rgba(0, 0, 0, 0.2);
 	display: flex;
 	align-items: center;
-	text-align: center;
+	/* text-align: center; */
 	color: #FFF;
 }
 
@@ -193,9 +193,8 @@ p {
 }
 
 /* ABOUT ME */
-.about {
-	margin-top: 80px;
-	height: 500px;
+.about, .my-classes {
+	padding-top: 80px;
 }
 
 .progress {
@@ -211,4 +210,28 @@ p {
 .about img {
 	width: 70%;
 	margin: 0 auto;
+}
+
+/* MY CLASSES */
+.my-classes {
+	background-color: #f9f9f9;
+}
+
+.card {
+	background-color: #FFF;
+	padding: 50px 30px 30px;
+	margin-bottom: 75px;
+}
+
+.card .card-text {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.my-classes img {
+	width: 100%;
+}
+
+.my-classes h2 {
+	margin-bottom: 48px;
 }
