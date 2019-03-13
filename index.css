@@ -12,12 +12,15 @@
 	font-weight: 500;
 }
 
+.flex {
+	display: flex;
+	align-items: center;
+}
+
 /* NAVBAR DEFAULT */
 
 nav {
 	height: 100px;
-	display: flex;
-  align-items: center;
 }
 
 .navbar-default {
@@ -29,11 +32,6 @@ nav {
 .navbar-default .navbar-brand {
 	color: #FFF;
 }
-
-/* nav .nav-link,
-nav .navbar-brand {
-	color: #FFF;
-} */
 
 nav .navbar-brand {
   font-size: 25px;
@@ -179,6 +177,38 @@ nav.nav-scrolled .navbar-brand:hover {
 	color: #FFF;
 }
 
-main {
+/* MAIN */
+
+h2 {
+	font-weight: 700;
+	font-size: 28px;
+	text-transform: uppercase;
+	line-height: 40px;
+	margin-top: 42px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 25px;
+}
+
+/* ABOUT ME */
+.about {
+	margin-top: 80px;
 	height: 500px;
+}
+
+.progress {
+	height: 3px;
+	background-color: #FFF;
+	box-shadow: none;
+}
+
+.progress-bar {
+	background-color: #000;
+}
+
+.about img {
+	width: 70%;
+	margin: 0 auto;
 }
