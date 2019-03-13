@@ -1,0 +1,184 @@
+/* 
+	COLOURS 
+	red: #ef3c4f 
+	yellow: #ffbc0b
+*/
+
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+.font-weight-500 {
+	font-weight: 500;
+}
+
+/* NAVBAR DEFAULT */
+
+nav {
+	height: 100px;
+	display: flex;
+  align-items: center;
+}
+
+.navbar-default {
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-brand {
+	color: #FFF;
+}
+
+/* nav .nav-link,
+nav .navbar-brand {
+	color: #FFF;
+} */
+
+nav .navbar-brand {
+  font-size: 25px;
+}
+
+nav .nav-link {
+	font-size: 14px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+nav .navbar-nav .nav-link:hover,
+.navbar-default .navbar-nav>li>a:hover {
+	color: #ffbc0b; 
+	background-color: rgba(0, 0, 0, 0);
+}
+
+nav .navbar-brand:hover,
+.navbar-default .navbar-brand:hover {
+	color: #FFF;
+}
+
+/* NAVBAR ON SCROLL */
+
+nav.nav-scrolled {
+	background-color: #FFF;
+	height: 80px;
+	box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+}
+
+nav.nav-scrolled .navbar-nav .nav-link,
+nav.nav-scrolled .navbar-brand {
+	color: #000;
+}
+
+nav.nav-scrolled .navbar-brand:hover {
+	color: #000;
+}
+
+/* NAVBAR MOBILE */
+@media (max-width: 767px) {
+	nav .container {
+		width: 100%;
+	}
+	.navbar-default {
+		background-color: #FFF;
+		min-height: 80px;
+		height: fit-content;
+	}
+	.navbar-default .navbar-nav>li>a,
+	.navbar-default .navbar-brand {
+		color: #000;
+	}
+	.navbar-default .navbar-toggle,
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		border: none;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background-color: #FFF;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #000;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border: none;
+	}
+	.navbar-nav {
+		text-align: center;
+	}
+}
+
+/* JUMBOTRON */
+
+.jumbotron {
+	height: 100vh;
+	background: url("http://themes.khaitawng.com/Walter/Trainer/images/home-bg.jpg") no-repeat center;
+	background-size: cover;
+	background-position: 50% -25px;
+	background-attachment: fixed;
+}
+
+.jum-overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFF;
+}
+
+.jum-overlay h3 {
+	font-size: 21px;
+	line-height: 30px;
+	padding-bottom: 15px;
+}
+
+.jum-overlay h1 {
+	font-weight: 300;
+	font-size: 56px;
+	line-height: 80px;
+	padding-bottom: 15px;
+}
+
+.play-link {
+	color: #FFF;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	margin-right: 20px;
+}
+
+.play-link:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.play-link .fa-play {
+	margin-right: 15px;
+	padding: 12px;
+	border: 1px solid #FFF;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+
+.btn-default {
+	color: #FFF;
+	background-color: #ffbc0b;
+	border: none;
+	border-radius: 2px;
+	padding: 15px 30px;
+}
+
+.btn-default:hover {
+	transform: translateY(0) scale(1.05);
+	background-color: #ffbc0b;
+	color: #FFF;
+}
+
+main {
+	height: 500px;
+}
