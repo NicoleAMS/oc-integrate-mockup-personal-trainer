@@ -2,7 +2,8 @@
 	COLOURS 
 	red: #ef3c4f 
 	yellow: #ffbc0b
-	dark-brown: #101010
+	dark-brown: #101010 or #393939
+	middle-brown: #757575 or #797979
 */
 
 * {
@@ -25,12 +26,6 @@
 
 .pt80 {
 	padding-top: 80px;
-}
-
-@media (max-width: 767px) {
-	.pt80 {
-		padding-top: 40px;
-	}
 }
 
 /* NAVBAR DEFAULT */
@@ -80,11 +75,11 @@ nav.nav-scrolled {
 
 nav.nav-scrolled .navbar-nav .nav-link,
 nav.nav-scrolled .navbar-brand {
-	color: #000;
+	color: #393939;
 }
 
 nav.nav-scrolled .navbar-brand:hover {
-	color: #000;
+	color: #393939;
 }
 
 /* JUMBOTRON */
@@ -175,14 +170,20 @@ h2 {
 	text-transform: uppercase;
 	line-height: 40px;
 	margin-top: 42px;
+	color: 	#393939;
 }
 
 p {
 	font-size: 14px;
 	line-height: 25px;
+	color: #757575;
 }
 
 /* ABOUT ME */
+.about .skills p {
+	color: 	#393939;
+}
+
 .progress {
 	height: 3px;
 	background-color: #FFF;
@@ -203,6 +204,10 @@ p {
 /* MY CLASSES */
 .my-classes {
 	background-color: #f9f9f9;
+}
+
+.my-classes h3 {
+	color: #393939;
 }
 
 .card {
@@ -255,6 +260,7 @@ p {
 	font-size: 12px;
 	line-height: 17px;
 	text-transform: uppercase;
+	color: #FFF;
 }
 
 /* CONTACT */
@@ -266,6 +272,7 @@ p {
 
 .contact h2.form-heading {
 	padding-left: 15px;
+	color: #FFF;
 }
 
 .contact input {
@@ -276,7 +283,7 @@ p {
 .contact textarea {
 	background-color: #101010;
 	color: #FFF;
-	border: 2px solid #151515;
+	border: 2px solid #101010;
 }
 
 .contact input:hover,
@@ -303,6 +310,7 @@ p {
 
 .contact-info h2 {
 	margin-top: 0;
+	color: #FFF;
 }
 
 .contact-info p {
@@ -351,6 +359,9 @@ footer h3 {
 	}
 	.contact .btn {
 		margin-bottom: 80px;
+	}
+	.pt80 {
+		padding-top: 40px;
 	}
 }
 
