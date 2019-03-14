@@ -2,6 +2,7 @@
 	COLOURS 
 	red: #ef3c4f 
 	yellow: #ffbc0b
+	dark-brown: #101010
 */
 
 * {
@@ -15,6 +16,14 @@
 .flex {
 	display: flex;
 	align-items: center;
+}
+
+.mb48 {
+	margin-bottom: 48px;
+}
+
+.pt80 {
+	padding-top: 80px;
 }
 
 /* NAVBAR DEFAULT */
@@ -193,10 +202,6 @@ p {
 }
 
 /* ABOUT ME */
-.about, .my-classes {
-	padding-top: 80px;
-}
-
 .progress {
 	height: 3px;
 	background-color: #FFF;
@@ -204,7 +209,8 @@ p {
 }
 
 .progress-bar {
-	background-color: #000;
+	/* background-color: #000; */
+	background-color: #ffbc0b;
 }
 
 .about img {
@@ -230,10 +236,6 @@ p {
 
 .my-classes img {
 	width: 100%;
-}
-
-.my-classes h2 {
-	margin-bottom: 48px;
 }
 
 /* MY PHOTOS */
@@ -270,4 +272,56 @@ p {
 	font-size: 12px;
 	line-height: 17px;
 	text-transform: uppercase;
+}
+
+/* CONTACT */
+.contact {
+	background-color: #101010;
+	color: #FFF;
+	padding-bottom: 90px;
+}
+
+.contact h2.form-heading {
+	padding-left: 15px;
+}
+
+.contact input {
+	height: 55px;
+}
+
+.contact input,
+.contact textarea {
+	background-color: #101010;
+	color: #FFF;
+	border: 2px solid #151515;
+}
+
+.contact input:hover,
+.contact textarea:hover {
+	border: 2px solid #797979;
+}
+
+.contact .btn {
+	width: 100%;
+	background-color: #FFF;
+	padding: 20px 40px;
+	color: #101010;
+}
+
+.contact .btn:hover {
+	background-color: #ffbc0b;
+	color: #FFF;
+}
+
+.info-text {
+	padding: 0 30px;
+}
+
+.contact-info h2 {
+	margin-top: 0;
+}
+
+.contact-info p {
+	color: #797979;
+	margin-top: 25px;
 }
