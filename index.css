@@ -124,7 +124,6 @@ nav.nav-scrolled .navbar-brand:hover {
 	background-color: rgba(0, 0, 0, 0.2);
 	display: flex;
 	align-items: center;
-	/* text-align: center; */
 	color: #FFF;
 }
 
@@ -169,6 +168,7 @@ nav.nav-scrolled .navbar-brand:hover {
 	border: none;
 	border-radius: 2px;
 	padding: 15px 30px;
+	transition: 0.3s;
 }
 
 .btn-default:hover {
@@ -234,4 +234,40 @@ p {
 
 .my-classes h2 {
 	margin-bottom: 48px;
+}
+
+/* MY PHOTOS */
+.photos .col-md-3 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.photos img {
+	width: 100%;
+}
+
+.img-overlay {
+	background-color: rgba(255, 188, 11, 0.8);
+	cursor: pointer;
+	opacity: 0;
+	transition: 0.7s;
+}
+
+.img-overlay:hover {
+	opacity: 1;
+}
+
+.img-overlay .overlay-text {
+	margin: 0 auto;
+}
+
+.photos h4 { 
+	font-size: 21px;
+	line-height: 30px;
+}
+
+.photos p {
+	font-size: 12px;
+	line-height: 17px;
+	text-transform: uppercase;
 }
