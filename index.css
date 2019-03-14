@@ -311,6 +311,7 @@ p {
 .contact .btn:hover {
 	background-color: #ffbc0b;
 	color: #FFF;
+	transform: none;
 }
 
 .info-text {
@@ -324,4 +325,36 @@ p {
 .contact-info p {
 	color: #797979;
 	margin-top: 25px;
+}
+
+/* FOOTER */
+
+footer {
+	height: 235px;
+	background-color: #000;
+	color: #FFF;
+}
+
+footer h3 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+.social-media i.fa {
+	font-size: 15px;
+	line-height: 30px;
+	margin: 0 10px;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	transition: 0.3s;
+}
+
+.social-media a {
+	color: #FFF;
+}
+
+.social-media i.fa:hover {
+	background-color: #ffbc0b;
+	transform: translateY(0) scale(1.2);
 }
