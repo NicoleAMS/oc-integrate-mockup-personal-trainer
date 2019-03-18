@@ -1,7 +1,7 @@
 ---------- SPEC SHEET ----------
 --------------------------------
 
-CLIENT WANTS AND NEEDS: 
+CLIENT DETAILS AND NEEDS: 
 
 Lindsey Gibson - a personal trainer, fitness instructor and pilates teacher.
 Based in an imaginary UK town called Torpoint. She works for a small local gym. 
