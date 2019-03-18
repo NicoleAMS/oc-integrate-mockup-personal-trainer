@@ -1,0 +1,34 @@
+---------- SPEC SHEET ----------
+--------------------------------
+
+CLIENT WANTS AND NEEDS: 
+
+Lindsey Gibson - a personal trainer, fitness instructor and pilates teacher.
+Based in an imaginary UK town called Torpoint. She works for a small local gym. 
+
+She wants a modern, light, energetic looking website that highlights her skills, her classes, a contact form to get in touch with 
+her and her contact information, links to her social media (facebook, twitter and instagram), and pictures that show exercise is 
+fun. 
+
+Her favourite colour is yellow and she wants this to be the accent colour of the website.
+
+Preference for a single page to keep things simple. 
+
+--------------------------------
+
+HOW TO ACHIEVE THIS:
+
+* Single page with scrollspy and fixed navbar.
+* Jumbotron with catching text, image background and video link.
+* About, Classes and Contact sections.
+* Footer with social media icons. 
+* Image gallery. 
+* Yellow accent colour.
+* Smooth transitions.
+* Light theme. 
+* A few subtle animations for the fun and energetic feel. 
+
+--------------------------------
+
+MOCKUP CHOSEN (but slightly adapted to meet client's needs: e.g. yellow instead of red):
+http://themes.khaitawng.com/Walter/Trainer/index.html
